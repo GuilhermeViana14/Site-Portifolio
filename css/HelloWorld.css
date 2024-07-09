@@ -1,0 +1,29 @@
+@import url('animation.css');
+
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('fonts/Minecraftia-Regular.ttf') format('truetype'); /* Caminho para o arquivo baixado */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+#texto {
+    
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color: rgb(255, 255, 255); /* Cor do texto */
+    font-size: 70px; /* Tamanho da fonte */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    font-family: 'Minecraftia', sans-serif; /* Aplica a fonte Minecraftia */
+  }
+  
+#frase {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0; /* Começa com largura zero para animação */
+    animation: typing 4s steps(40, end); /* Animação de digitação */
+  }
+
+#frase.animacao {
+    animation: typing 4s steps(40, end) infinite; /* Animação de digitação infinita */
+  }

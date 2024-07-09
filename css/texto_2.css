@@ -1,0 +1,25 @@
+  @import url('animation.css');
+ 
+
+/* Estilo para o título h3 dentro da div .content */
+.texto2_titulo{
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  font-size: 35px; /* Tamanho da fonte do título h3 */
+  margin-left: 35px; /* Move o título h3 20 pixels para a esquerda */
+  margin-top: 70px;
+  color: #ffffff; /* Cor do título h3 */
+  animation: fadeIn 2s ease-out; /* Animação de fade-in quando a página carregar */
+
+}
+
+.texto2 {
+    
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  animation: slideInLeft 2s ease-out;
+  padding: 10px; /* Espaçamento interno da borda */
+    
+
+}

@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('../../../assets/fontes/Minecraftia-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hello_world{
+  color: rgb(255, 255, 255);
+  padding: 2rem 0;
+  font-size: 24px;
+  font-family: 'Minecraftia', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(40, end) infinite
+
+}
+
+.texto_1{
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+  white-space: nowrap;
+  animation: fadeIn 3s steps(40, end)
+
+}
+
+.texto_2 {
+  font-size: 20px;
+  margin-top: 150px;
+  color: #ffffff;
+  text-align: center;
+  animation: slideInLeft 2s ease-out;
+
+}
+
+
+
+/* Animação de escrita */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+@keyframes slideInLeft {
+  0% {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}

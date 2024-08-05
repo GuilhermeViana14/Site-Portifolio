@@ -1,0 +1,8 @@
+main {
+  background-image: url('../assets/imagens/fundo.jpg'); /* Caminho para a imagem */
+  background-size: cover; /* Faz com que a imagem cubra toda a área */
+  min-height: 100vh; /* Garante que o main ocupe pelo menos a altura da tela */
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+

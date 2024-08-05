@@ -1,0 +1,97 @@
+.image_hobby {
+  display: flex;
+  justify-content: space-between; /* Centraliza as imagens horizontalmente */
+  max-width: 80%; /* Define a largura máxima para o container */
+  margin-left: 150px;
+
+}
+
+.image_item {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  flex: 1; /* Distribui o espaço disponível igualmente entre os itens */
+  padding: 0 10px; /* Espaçamento interno para cada item */
+  display: flex; /* Para alinhar conteúdo verticalmente */
+  flex-direction: column; /* Alinha itens em coluna */
+  align-items: center; /* Centraliza itens verticalmente */
+  animation: slideInLeft 2s ease-out;
+}
+
+.image_item img {
+  width: 320px; /* Largura das imagens */
+  height: 540px; /* Altura automática para manter proporções */
+  margin-top: 100px; /* Espaço no topo do container */
+  object-fit: cover; /* Mantém a proporção da imagem */
+  border-radius: 10px; /* Borda arredondada */
+}
+
+.image_text {
+  margin-top: 10px; /* Espaço entre a imagem e o texto */
+  font-size: 17px; /* Tamanho do texto */
+  color: white; /* Cor do texto */
+}
+
+.titulo_hobby2 {
+  font-size: 35px; /* Tamanho da fonte do título h3 */
+  text-align: center;
+  margin-top: 120px;
+  color: #ffffff; /* Cor do título h3 */
+  /* Animação de fade-in quando a página carregar */
+  animation: fadeIn 2s ease-out;
+
+}
+
+.image_hobby2 {
+  display: flex;
+  justify-content: space-between; /* Centraliza as imagens horizontalmente */
+  max-width: 80%; /* Define a largura máxima para o container */
+  margin-top: 20px; /* Espaço no topo do container */
+  margin-left: 150px;
+
+}
+
+.image_item2 {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  flex: 1; /* Distribui o espaço disponível igualmente entre os itens */
+  padding: 0 10px; /* Espaçamento interno para cada item */
+  display: flex; /* Para alinhar conteúdo verticalmente */
+  flex-direction: column; /* Alinha itens em coluna */
+  align-items: center; /* Centraliza itens verticalmente */
+  animation: slideInLeft 2s ease-out;
+}
+
+.image_item2 img {
+  width: 1000px; /* Largura das imagens */
+  height: 500px; /* Altura automática para manter proporções */
+  object-fit: cover; /* Mantém a proporção da imagem */
+  border-radius: 10px; /* Borda arredondada */
+}
+
+.image_text2 {
+  margin-top: 45px; /* Espaço entre a imagem e o texto */
+  font-size: 17px; /* Tamanho do texto */
+  color: white; /* Cor do texto */
+}
+
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+@keyframes slideInLeft {
+  0% {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
